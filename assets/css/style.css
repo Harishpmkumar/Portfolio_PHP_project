@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Protest+Riot&family=Roboto+Mono:wght@300&family=Roboto:wght@900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* navbar section */
+.navbar{
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+.navbar-brand span{
+    color: green;
+}
+.nav-link:focus, .nav-link:hover{
+    font-weight: bold;
+    color:green;
+}
+
+
+/* carousel section */
+.carousel{
+    top: 60px;
+}
+.carousel-img{
+    width: 100%;
+    height: 550px;
+}
+
+
+/* about section */
+.about-container{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.who-we-are{
+    text-align: justify;
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.who-we-are h4{
+    text-align: center;
+}
+.tech-we-use{
+    text-align: center;
+    margin-top: 80px;
+}
+.tech-img{
+    width: 12%;
+    padding-left: 10px;
+}
+
+
+/* services section */
+.services-container{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.web-design, .web-devlope, .web-maintain{
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.fa-solid{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.web-design h5, .web-devlope h5, .web-maintain h5{
+    padding-top: 15px;
+}
+.web-design p, .web-devlope p, .web-maintain p{
+    text-align: justify;
+    padding-top: 10px;
+}
+.web-design:hover, .web-devlope:hover, .web-maintain:hover{
+    background-color: rgb(232, 232, 232);
+    transform: scale(1.02);
+}
+
+
+
+/* contact section */
+.contact-container .form-row{
+    margin-top: 150px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-img{
+    width: 100%;
+}
+.contact-container .address-row{
+    margin: 100px;
+}
+.map iframe{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+
+/* address section */
+.address div{
+    background-color:rgb(186, 255, 186);
+    height: 350px;
+    border-radius: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.address h5{
+    font-size: 35px;
+}
+.address ul{
+    list-style-type: none;
+    font-size: 22px;
+}
+.address div p{
+    font-size: 22px;
+}
+.address div p .fa-solid{
+    font-size: 22px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+
+}
+
+
+/* footer section */
+footer{
+    background-color: black;
+}
+footer .container-fluid{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
